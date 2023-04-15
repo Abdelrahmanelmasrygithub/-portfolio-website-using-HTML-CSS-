@@ -1,0 +1,250 @@
+*{ 
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: sans-serif ,"poppins";
+scroll-behavior: smooth;}
+/**firest header**//**لو عايز توسطن حاجه زي حاجه شوف انت مدي الحاجه الاوليه كام **/
+
+header{
+background-color:#f0f0f0 ;
+padding: 10px 200px;
+width: 100%;
+justify-content: space-between;
+display: flex;
+align-items: center;
+z-index: 999;
+position: fixed;
+}
+.logo{
+text-decoration: none;
+color: #3a6cf4;
+font-weight: 700;
+font-size: 1.8em;
+}
+.navigation a{
+text-decoration: none;
+padding-left: 30px;
+font-weight: 500;
+font-size: 1.1em;
+}
+.navigation a:hover{
+color:#601cfc ;
+
+}
+/** end*/
+/**seac1 start*/
+section{
+padding: 100px 200px;
+
+}
+
+.main{
+min-height: 100vh;
+width: 100%;
+align-items: center;
+display: flex;
+background: url(imgs/DSC_0398.JPG);
+background-size:cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+.main h2{
+color: #fff;
+font-size: 1.4em;
+font-weight: 500;
+}
+
+.main h2 span{
+display: flex;
+color: #601cfc;
+font-size: 3em;
+font-weight: 800;
+margin-top: 10px;
+}
+.main h3{
+font-size: 2em;
+font-weight: 700;
+letter-spacing: 1px;
+margin-top: 10px;
+margin-bottom: 30px;
+color: #fff;
+}
+.min-bth{
+background-color:#3a6cf4
+;padding:0.9375em 2.1875em ;
+text-decoration: none;
+color: #ffffff;
+font-size: 1.1em;
+font-weight: 600;
+letter-spacing: 1px;
+border-radius: 15px;
+margin-bottom: 40px;
+display: inline-block;
+transition: 0.7s ease;
+}
+.min-bth:hover{
+transform: scale(1.1);
+background-color: #601cfc;
+}
+.title{
+font-size: 2.2em;
+font-weight: 800;
+justify-content: center;
+display: flex;
+color: #601cfc;
+margin: 30px;
+}
+.contact{justify-content: center;
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+}
+.card{
+    background-color: #fff;
+    width: 17em;
+    padding: 30px;
+    margin: 15px;
+    box-shadow: 0px 5px 25px  rgba(1 1 1 /15%);
+    transition: 0.7s ease;
+    }
+.card:hover{
+    transform: scale(1.1);}
+.icon{
+font-size: 8em;
+text-align: center;}
+.info{text-align: center;
+   }
+.info h3{
+    margin-bottom: 15px; 
+    color: #601cfc;}
+    /*start proj */
+    .Projects{
+        background-color: #000016;
+            }
+            .Projects .contact{
+
+margin-top: 30px;
+            }
+            
+.Project-card{
+background-color: #fff;
+border: #fff solid 1px;
+border-radius: 10px;
+overflow: hidden;
+min-height: 14em;
+width: 14em;
+margin: 20px;
+transition: 0.7s ease;
+}
+.Project-card:hover{
+transform: scale(1.1);
+
+}
+.Project-imge img{
+width: 100%;
+
+}
+.Project-card:hover .Project-imge {
+    opacity: 0.9;
+}
+.Project-info{
+    padding: 1.1em;
+}
+
+.Project-category{
+font-size: 1em;
+color: #000016;
+}
+.Project-title{
+    text-transform: uppercase;
+display: flex;
+
+margin-top: 10px;
+justify-content: space-between;
+
+}
+.more-detals{
+text-decoration: none;
+color: #3a6cf4;
+
+}
+.more-detals:hover{
+    color: #601cfc;
+}
+
+.cards-contact .contact .info p{
+font-size: 1.5em;
+}
+/* 
+start footer
+*/
+.footer{
+background-color: #000016;
+ color: #fff;
+ padding: 2em;
+
+}
+.footer p{
+   font-size: 1.1em;
+font-weight: 600;
+
+}
+.footer span{
+    color: #601cfc;
+}
+/*end*/
+@media ( max-width:1023px){
+    header{ padding: 12px 10px;}
+    .navigation a {padding-left: 10px;}
+    .title{
+        font-size: 1.8em;
+    }
+    .main{background: url(imgs/ss.JPG);
+background-size:cover ;
+background-repeat: no-repeat;
+background-attachment: fixed;}
+ section{ 
+    padding: 80px 20px;
+ }
+ .main h2{
+    color: #fff;
+    font-size: 1em;
+    
+    }
+    
+ 
+    .main h3{
+    font-size: 1.5em;
+   
+ 
+    }
+
+    .contact{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media ( max-width:641){
+
+    body{
+        font-size: 12px;
+    }
+    .main h3{ font-size: 0.8em; }
+
+    .main h3 { font-size: 1.4em;}
+}
+@media( max-width:300px ){
+    body{
+        font-size: 10px;
+       
+    }
+}
+
+
+
+
+
+
+
+
